@@ -26,7 +26,8 @@ const App = () => {
 
   return (
      <div className="container">
-      <h5>React Accordion</h5>
+      <h5 style={{textAlign:"center",height:"100px",justifyContent:"center",
+      display:"flex",lineHeight:"100px",backgroundColor:"aqua"}}>React Accordion</h5>
       <div className="row">
         {showdata.map((item,index)=>(
           <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12" key={index}> 
