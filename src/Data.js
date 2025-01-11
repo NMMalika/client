@@ -8,13 +8,10 @@ const Data =({title,boby})=>{
     };
 
     return (
-      <div className="accordion-item" onClick={handleclick}>
+      <div className={show ? "accordion-opened accordion-item" : "accordion-item"} onClick={handleclick}>
         <div className="accordion-title">
           <h2>{title}</h2>
-          <p>
-          {show ? <FcCollapse size={20} /> : <FcExpand size={20} />}
-            
-          </p>
+          <p>{show ? <FcCollapse size={20} /> : <FcExpand size={20} />}</p>
         </div>
 
         {show && <p>{boby}</p>}
