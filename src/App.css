@@ -1,0 +1,13 @@
+.accordion-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+  -webkit-box-shadow: 6px -5px 24px -10px rgba(2, 245, 33, 1);
+    -moz-box-shadow: 6px -5px 24px -10px rgba(2, 245, 33, 1);
+    box-shadow: 6px -5px 24px -10px rgba(2, 245, 33, 1);
+}
+.accordion-title {
+ display: flex;
+ justify-content: space-between;
+}
